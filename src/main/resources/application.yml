@@ -1,0 +1,19 @@
+#spring:
+#  data:
+#    mongodb:
+#      authentication-database: admin
+#      username: rootuser
+#      password: rootpass
+#      database: mongo_tst
+#      port: 27017
+#      host: localhost
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+spring:
+  data:
+    mongodb:
+      uri: mongodb://rootuser:rootpass@localhost:27017/product-service
+
+
